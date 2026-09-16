@@ -211,6 +211,6 @@ The user is solely responsible for complying with all applicable laws, rules, an
 
 **Ian Simons**
 
-Network Analyst | Offensive Security Student
+Offensive Security Student
 
 Built while progressing through the Hack The Box CPTS learning path.
