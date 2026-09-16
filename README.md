@@ -1,4 +1,4 @@
-# Pentest Report Generator
+# Hack the Box Write-Up Generator
 
 A Python-based penetration testing workflow tool that automates Nmap scanning, parses XML results, performs basic web enumeration, and generates a professional Markdown report template for documenting Hack The Box, Proving Grounds, lab environments, and other authorized security assessments.
 
