@@ -1,4 +1,4 @@
-# Hack the Box Write-Up Generator
+# CTF Write-Up Generator
 
 A Python-based penetration testing workflow tool that automates Nmap scanning, parses XML results, performs basic web enumeration, and generates a professional Markdown report template for documenting Hack The Box, Proving Grounds, lab environments, and other authorized security assessments.
 
@@ -95,13 +95,13 @@ sudo apt install nmap curl
 Run the script with a target IP address:
 
 ```bash
-python3 report_generator.py 10.10.10.10
+python3 write-up-gen.py 10.10.10.10
 ```
 
 Example:
 
 ```bash
-python3 report_generator.py 10.129.123.45
+python3 write-up-gen.py 10.129.123.45
 ```
 
 ---
