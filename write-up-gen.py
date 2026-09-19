@@ -173,12 +173,12 @@ def httpCheck(IP,portList):
                 content = results.stdout
             contentLines = content.split("\n")
             custom404Check= custom404Check.split("\n")
-            for i in range(len(custom404Check)):
+            for j in range(len(custom404Check)):
                 try: 
-                    test = contentLines[i]
+                    test = contentLines[j]
                 except:
                     test ="yea though I walk through the valley of the shadow of death I shall fear no evil"
-                if test == custom404Check[i]:
+                if test == custom404Check[j]:
                     mismatch += 1 
             if mismatch < 3:
                 print(content)
@@ -203,12 +203,12 @@ def httpCheck(IP,portList):
                 content = results.stdout
             contentLines = content.split("\n")
             custom404Check= custom404Check.split("\n")
-            for i in range(len(custom404Check)):
+            for j in range(len(custom404Check)):
                 try: 
-                    test = contentLines[i]
+                    test = contentLines[j]
                 except:
                     test ="yea though I walk through the valley of the shadow of death I shall fear no evil"
-                if test == custom404Check[i]:
+                if test == custom404Check[j]:
                     mismatch += 1 
             if mismatch < 3:
                 print(content)
